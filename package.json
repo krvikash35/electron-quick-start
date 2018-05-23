@@ -17,7 +17,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "dependencies": {
-    "jabra-dev": "^1.0.2",
+    "jabra-dev": "^1.0.5-12.bab66487",
     "mynativeaddon": "git://github.com/sysleaf/native_addon_demo.git"
   },
   "devDependencies": {
