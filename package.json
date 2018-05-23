@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w jabra-dev"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -21,6 +22,7 @@
     "mynativeaddon": "git://github.com/sysleaf/native_addon_demo.git"
   },
   "devDependencies": {
-    "electron": "^2.0.0"
+    "electron": "^2.0.0",
+    "electron-rebuild": "^1.7.3"
   }
 }
