@@ -3,7 +3,7 @@
 // All of the Node.js APIs are available in this process.
 
 process.env.DEBUG="";
-// var myaddon = require('mynativeaddon');
+var myaddon = require('mynativeaddon');
 var myaddon;
 const { createJabraApplication } = require('jabra-dev');
 const {ipcRenderer} = require('electron')
